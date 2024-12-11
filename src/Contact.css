@@ -1,0 +1,457 @@
+
+.Contact-body{
+    width: 100%;
+}
+.Contact-top-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    height: 98vh;
+    width: 100%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0) 100%), radial-gradient(rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.3) 166%), url("/dkn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 5vh;
+    padding-bottom: 10vh;
+}
+
+.Contact-details-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 200vh;
+    width: 100%;  
+    background-color: #c7ae87;
+    color: #000000;
+}
+
+.Contact-form-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 108vh;
+    width: 80%; 
+    /* background-color: black;   */
+}
+
+.Contact-form-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 90%;
+    width: 50%;  
+}
+
+.Contact-img{
+    height: 97.1vh;
+    width: 35vw;
+}
+
+.Contact-form-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 11vh;
+    width: 18vw;
+    margin: 0%;
+    padding: 0%;
+}
+
+.Contact-form-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 98%;
+    font-size: large;
+}
+
+.Contact-form{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+    height: 75%;
+    width: 97%; 
+}
+
+label{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 5vh;
+    width: 13.5%; 
+    padding-left: 0.1%;
+    font-size: large;
+}
+
+.Contact-form-name-div{
+    height: 13.8vh;
+    width: 100%; 
+}
+.Contact-form-name{
+    height: 8vh;
+    width: 99%; 
+}
+
+.Contact-form-email-div{
+    height: 13.8vh;
+    width: 100%;
+}
+.Contact-form-email{
+    height: 8vh;
+    width: 99%;   
+}
+
+.Contact-form-textbox-div{
+    height: 21vh;
+    width: 100%;
+}
+.Contact-form-textbox{
+    height: 15vh;
+    width: 99%; 
+}
+
+.Contact-form-send-div{
+    height: 9vh;
+    width: 9vw;
+}
+.Contact-form-send{
+    background-color: #000000;
+    color: #c7ae87;
+    height: 9vh;
+    width: 9vw; 
+    font-size: large;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+.Contact-bottom-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 60vh;
+    width: 70%;
+}
+
+.Contact-bottom-div1{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+    gap: 5vh;
+}
+.Contact-bottom-line-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 5%;
+    width: 88%;
+    font-size: 2.3vh;
+}
+.Contact-bottom-line-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.Contact-bottom-div2{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    gap: 6vh;
+}
+.Contact-bottom-span2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 10%;
+    width: 98%;
+    font-size: 2.3vh;
+}
+
+.Contact-bottom-div3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+}
+.Contact-bottom-span-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 65%;
+    width: 100%;
+    font-size: 2.8vh;
+}
+
+.Contact-bottom-header-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 14.5vh;
+    width: 15vw;
+    
+}
+
+.Contact-bottom-h1{
+    font-size: 6.5vh;
+    margin: 0%;
+    padding: 0%;
+}
+
+.Contact-bottom-h4{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+    
+    .Contact-top-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: column; */
+        height: 50vh;
+        width: 100%;
+        background-image: radial-gradient(rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0) 100%), radial-gradient(rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.3) 166%), url("/dkn.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        font-size: 3.1vh;
+        padding-top: 15vh;
+    }
+    
+    .Contact-details-box{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;  
+        background-color: #c7ae87;
+        color: #000000;
+    }
+    
+    .Contact-form-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60vh;
+        width: 95%; 
+        /* background-color: black;   */
+    }
+    
+    .Contact-form-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 80%;
+        width: 50%;  
+    }
+    
+    .Contact-img{
+        height: 80%;
+        width: 45%;
+    }
+    
+    .Contact-form-h1{
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        height: fit-content;
+        width: 65%;
+        margin: 0%;
+        padding: 0%;
+        font-size: large;
+    }
+    
+    .Contact-form-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: 100%;
+        font-size: small;
+    }
+    
+    .Contact-form{
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        flex-direction: column;
+        height: 80%;
+        width: 97%; 
+    }
+    
+    label{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        height: 2vh;
+        width: 50%; 
+        padding-left: 0.1%;
+        font-size: large;
+    }
+    
+    .Contact-form-name{
+        height: 5vh;
+        width: 99%; 
+    }
+    
+    .Contact-form-email{
+        height: 5vh;
+        width: 99%;   
+    }
+    
+    .Contact-form-textbox{
+        height: 10vh;
+        width: 99%; 
+    }
+    
+    .Contact-form-send{
+        background-color: #000000;
+        color: #c7ae87;
+        height: 5vh;
+        width: 18vw; 
+        font-size: medium;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    
+    
+    
+    .Contact-bottom-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        height: 30vh;
+        width: 95%;
+    }
+    
+    .Contact-bottom-div1{
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 33%;
+        gap: 5vh;
+        border: black solid 1px;
+    }
+    .Contact-bottom-h2{
+        font-size: large;
+        margin: 0%;
+        padding: 0%;
+    }
+    .Contact-bottom-h4{
+        font-size: small;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+    
+    .Contact-bottom-line-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 4.5vh;
+        width: 100%;
+        font-size: 1.3vh;
+    }
+    .Contact-bottom-line-link{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .Contact-bottom-div2{
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 38%;
+        gap: 7vh;
+        border: yellow solid 1px;
+    }
+    .Contact-bottom-span2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 45%;
+        width: 100%;
+        font-size: 1.5vh;
+    }
+    
+    .Contact-bottom-div3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 40%;
+        border: red solid 1px;
+    }
+    .Contact-bottom-span-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 65%;
+        width: 100%;
+        font-size: 1.2vh;
+    }
+    
+    .Contact-bottom-header-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 18%;
+        width: 100%;
+        
+    }
+    
+}
+
+
+
+
+
+

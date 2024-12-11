@@ -1,0 +1,497 @@
+
+
+.Home-body{
+    width: 99.0.5vw;
+    /* background-image: url("/istockphoto-2116472460-170667a.webp"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+     
+}
+.top-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    /* margin-top: 200px; */
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 100%), radial-gradient(rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.3) 166%), url("/kjauiuikj.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* gap: 10px; */
+
+}
+.top-img-H1-div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 40vw;
+}
+.top-img-H1-div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 30vw;
+}
+.top-img-H1{
+    height: 8vh;
+    width: 40vw;
+    font-size: 3vw;
+    margin: 0%;
+    padding: 0%;
+}
+
+.top-img-book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 10vw;
+    margin-top: 5vh;
+    color: #fff;
+    background-color: #005c5f;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    font-size: 1.3vw;
+    border: #005c5f solid 0.1vw;
+}
+
+
+.the-vibe-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 99.0.5vw;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.8) 100%), radial-gradient(rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.3) 166%), url("/uwhui.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    gap: 15vh;
+}
+.the-vibe-h1-div{
+    height: 10vh;
+    width: 15vw;
+    /* background-color: rgba(0, 0, 0, 0.726); */
+}
+.the-vibe-h1{
+    font-size: 3vw;
+    margin: 0;
+    padding: 0;
+}
+.the-vibe-text-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 58vw;
+    font-size: 1.5vw;
+    font-weight: 530;
+    font-family: poppins;
+    /* background-color: rgba(0, 0, 0, 0.726); */
+}
+
+
+
+.Home-services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 65vh;
+    width: 99.0.5vw;
+    gap: 3vw;
+    background-color: #e2e2e2;
+}
+.Home-services-box{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+    height: 25vh;
+    width: 40vw;
+    margin-top: -21vh;
+}
+
+
+.Home-services-h1{
+    /* font-size: 3vw; */
+    margin: 0;
+    padding: 0;
+}
+
+
+.Home-services-h2{
+    /* font-size: 3vw; */
+    margin: 0;
+    padding: 0;
+}
+
+.Home-services-text-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9vw;
+    height: 7vh;
+    width: 90%;
+    font-weight: 520;
+    /* font-family: poppins; */
+}
+
+.Home-services-buttons-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    width: 20vw;
+    margin-top: 25vh;
+    position: absolute;
+    margin-right: 56vw;
+}
+
+.Home-services-link-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 1vw; */
+    height: 7vh;
+    width: 9vw;
+    cursor: pointer;
+    background-color: #005c5f;
+    border-radius: 0.5vw;
+    border: #005c5f solid 0.1vw;
+    
+}
+.Home-services-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.Home-services-book-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 1vw; */
+    height: 7.2vh;
+    width: 9vw;
+    color: #fff;
+    cursor: pointer;
+    background-color: #005c5f;
+    border-radius: 0.5vw;
+    border: #005c5f solid 0.1vw;
+}
+
+.Home-services-img-div{
+    height: 47vh;
+    width: 33vw;
+    border-radius: 0.6vw;
+}
+.Home-services-img{
+    height: 47vh;
+    width: 33vw;
+    border-radius: 0.6vw;
+}
+
+.quote-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+    height: 85vh;
+    width: 99.0.5vw;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.8) 100%), radial-gradient(rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.3) 166%), url("/dark.png");
+    color: #fff;
+}
+.quote-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 60%;
+    /* font-size: large; */
+}
+.quote-h1{
+    margin: 0;
+    padding: 0;
+}
+.quote-h1ii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 3.3vw;
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+    
+    .top-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+        width: 100%;
+        /* margin-top: 200px; */
+        background-image: radial-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 100%), radial-gradient(rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.3) 166%), url("/kjauiuikj.png") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        /* gap: 10px; */
+    
+    }
+    
+    .top-img-H1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: 83%;
+        font-size: 3vh;
+        margin: 0%;
+        padding: 0%;
+    }
+    .top-img-H2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: 60%;
+        font-size: 3vh;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+
+    .top-img-book{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6.5vh;
+        width: 25vw;
+        margin-top: 5vh;
+        color: #fff;
+        background-color: #005c5f;
+        border-radius: 1.5vw;
+        cursor: pointer;
+        font-size: 1.5vh;
+        border: #005c5f solid 1px;
+    }
+    
+    
+    .the-vibe-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 60vh;
+        width: 100%;
+        background-image: radial-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.8) 100%), radial-gradient(rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.3) 166%), url("/uwhui.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        /* gap: -20px; */
+        
+    }
+    
+    .the-vibe-h1{
+        font-size: 6vw;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .the-vibe-text-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 90%;
+        font-size: 1.8vh;
+        margin: 0;
+        padding: 0;
+        /* font-weight: 530; */
+        font-family: poppins;
+        /* background-color: rgba(0, 0, 0, 0.726); */
+    }
+    
+    
+    .Home-services-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+        gap: 3vw;
+        background-color: #e2e2e2;
+    }
+    .Home-services-box{
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        flex-direction: column;
+        height: 30%;
+        width: 80%;
+    }
+    
+    .Home-services-h1{
+        /* font-size: 3vw; */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .Home-services-h2{
+        /* font-size: 3vw; */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .Home-services-text-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.8vw;
+        height: 7vh;
+        width: 100%;
+        font-weight: 520;
+        /* font-family: poppins; */
+        margin-bottom: 0%;
+    }
+    
+    .Home-services-buttons-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5vh;
+        width: 80%;
+        margin-top: 1.5vh;
+        margin-right: 0%;
+        position: relative;
+    }
+    .Home-services-link-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: row; */
+        height: 100%;
+        width: 30vw;
+        cursor: pointer;
+        background-color: #005c5f;
+        border-radius: 1.5vw;
+        border: #005c5f solid 0.1vw;
+        
+    }
+    .Home-services-link{
+        font-size: 1.6vh;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .Home-services-book-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* font-size: 1vw; */
+        height: 100%;
+        width: 30vw;
+        color: #fff;
+        cursor: pointer;
+        background-color: #005c5f;
+        border-radius: 1.5vw;
+        border: #005c5f solid 0.1vw;
+    }
+    
+    .Home-services-img{
+        height: 23vh;
+        width: 80%;
+        border-radius: 1.5vw;
+        margin-bottom: -21vh;
+    }
+    
+    .quote-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: row; */
+        height: 50vh;
+        width: 100%;
+        background-image: radial-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.8) 100%), radial-gradient(rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.3) 166%), url("/dark.png");
+        color: #fff;
+    }
+    .quote-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 70%;
+        width: 80%;
+        /* font-size: large; */
+    }
+    .quote-h1{
+        margin: 0;
+        padding: 0;
+    }
+    .quote-h1ii{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: column; */
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 5vw;
+    }
+    
+    .quote{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        width: 100%;
+    }
+    
+    
+    
+    
+    
+}

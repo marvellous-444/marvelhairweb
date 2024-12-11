@@ -1,0 +1,21 @@
+*{
+  border: red solid 1px;
+  font-family: poppins;
+  
+}
+
+body{
+  /* height: auto; */
+  width: 99.0.5vw;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1080px){
+  body{
+    /* height: auto; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,198 @@
+
+.About-body{
+    width: 100%;
+}
+
+.About-top-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 98vh;
+    width: 100%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0) 100%), radial-gradient(rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.3) 166%), url("/tfgyhkl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-size: 3.5vh;
+    padding-bottom: 15vh;
+}
+h1{
+
+    margin: 0;
+    padding: 0;
+}
+
+.the-story-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    background-color: #2e2c2c;
+    color: #fff;
+}
+
+.Jonathan-quote-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 65vh;
+    width: 100%;
+    
+    
+}
+
+.Jonathan-quote-h2-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.7vw;
+}
+
+.Jonathan-quote-h2{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.Jonathan-quote-h2i{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.About-last-text-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    font-size: 1.7vw;
+    background-color: rgb(196, 160, 117);
+    
+}
+.About-last-text-book{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    width: 12%;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0.5vw;
+    background-color: #005c5f;
+    border: #005c5f solid 1px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+    
+    .About-top-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 45vh;
+        width: 100%;
+        background-image: radial-gradient(rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0) 100%), radial-gradient(rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.3) 166%), url("/tfgyhkl.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        font-size: 1.4vh;
+        padding-top: 5vh;
+    }
+    h1{
+    
+        margin: 0;
+        padding: 0;
+    }
+    
+    .the-story-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 48vh;
+        width: 100%;
+        background-color: #2e2c2c;
+        color: #fff;
+    }
+    .the-story-h2{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .Jonathan-quote-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+        
+        
+    }
+       
+    .Jonathan-quote-h2{
+        margin: 0%;
+        padding: 0%;
+        font-size: large;
+        
+    }
+    .Jonathan-quote-h2i{
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: large;
+    }
+    .Jonathan{
+        font-size: small;
+    }
+    
+    .About-last-text-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 35vh;
+        width: 100%;
+        font-size: large;
+        background-color: #c4a075;
+        
+    }
+    .About-last-text-book{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 7vh;
+        width: 30vw;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 2vw;
+        background-color: #005c5f;
+        border: #005c5f solid 1px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
