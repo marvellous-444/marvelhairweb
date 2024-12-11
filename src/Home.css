@@ -24,23 +24,16 @@
     /* gap: 10px; */
 
 }
-.top-img-H1-div1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 8vh;
-    width: 40vw;
-}
-.top-img-H1-div2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 8vh;
-    width: 30vw;
-}
 .top-img-H1{
     height: 8vh;
     width: 40vw;
+    font-size: 3vw;
+    margin: 0%;
+    padding: 0%;
+}
+.top-img-H2{
+    height: 8vh;
+    width: 29vw;
     font-size: 3vw;
     margin: 0%;
     padding: 0%;
