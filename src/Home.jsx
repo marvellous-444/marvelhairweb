@@ -12,7 +12,7 @@ export default function Home(){
 
             <div className="top-img">
                 <h1 className="top-img-H1">Looking Your Best Never</h1>
-                <h1 className="top-img-H2">Goes Out of Style</h1>
+                <h1 className="top-img-H1">Goes Out of Style</h1>
                 <button className='top-img-book'>BOOK NOW</button>
             </div>
 
