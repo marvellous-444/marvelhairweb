@@ -6,7 +6,7 @@ import { BrowserRouter,Route,Routes } from 'react-router-dom'
 import Services from './Services.jsx'
 import Contact from './Contact.jsx'
 import About from './About.jsx'
-
+import AppointmentScheduler from "./AppointmentScheduler";
 
 
 
@@ -26,7 +26,10 @@ export default  function App(){
         </Routes>
       </BrowserRouter>
     
-    <div className="body"></div>
+    <div className="body">
+      <AppointmentScheduler />
+    
+    </div>
     </>
   )
 }
