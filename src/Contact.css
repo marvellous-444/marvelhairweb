@@ -129,6 +129,7 @@ label{
     font-size: large;
     border-radius: 8px;
     cursor: pointer;
+    border: #000 solid 1.5px;
 }
 
 
@@ -150,6 +151,8 @@ label{
     height: 100%;
     width: 25%;
     gap: 5vh;
+    border: black solid 2px;
+    border-radius: 2vh;
 }
 .Contact-bottom-line-div{
     display: flex;
@@ -173,6 +176,8 @@ label{
     height: 100%;
     width: 40%;
     gap: 6vh;
+    border: rgb(226, 226, 14) solid 2px;
+    border-radius: 2vh;
 }
 .Contact-bottom-span2{
     display: flex;
@@ -191,6 +196,8 @@ label{
     flex-direction: column;
     height: 100%;
     width: 25%;
+    border: red solid 2px;
+    border-radius: 2vh;
 }
 .Contact-bottom-span-div{
     display: flex;
@@ -236,7 +243,7 @@ label{
 
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 580px) {
     
     .Contact-top-img{
         display: flex;
@@ -293,7 +300,7 @@ label{
         justify-content: center;
         align-items: center; */
         height: fit-content;
-        width: 65%;
+        width: 100%;
         margin: 0%;
         padding: 0%;
         font-size: large;
@@ -350,6 +357,7 @@ label{
         font-size: medium;
         border-radius: 8px;
         cursor: pointer;
+        border: #000 solid 1.5px;
     }
     
     
@@ -371,7 +379,8 @@ label{
         height: 100%;
         width: 33%;
         gap: 5vh;
-        border: black solid 1px;
+        border: black solid 1.5px;
+        border-radius: 2vh;
     }
     .Contact-bottom-h2{
         font-size: large;
@@ -407,7 +416,8 @@ label{
         height: 100%;
         width: 38%;
         gap: 7vh;
-        border: yellow solid 1px;
+        border: yellow solid 1.5px;
+        border-radius: 2vh;
     }
     .Contact-bottom-span2{
         display: flex;
@@ -426,7 +436,8 @@ label{
         flex-direction: column;
         height: 100%;
         width: 40%;
-        border: red solid 1px;
+        border: red solid 1.5px;
+        border-radius: 2vh;
     }
     .Contact-bottom-span-div{
         display: flex;

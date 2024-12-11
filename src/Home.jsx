@@ -18,11 +18,13 @@ export default function Home(){
 
             
             
-            <div className="the-vibe-box">
-                <h1 className="the-vibe-h1">The Vibe</h1>
-                <p className="the-vibe-text-div">
-                    MARVEL HAIR CUT  specializes in classic cuts, beard trims, hot towel shaves  and quality grooming products. Our team of professional and knowledgeable barbers work to help you achieve your best look. We thrive on great music, thoughtful conversation and fostering relationship in our community. We’ve created a laid back environment for your regular dose of self-care.
-                </p>
+            <div className="the-vibe-container">
+                <div className="the-vibe-box">
+                    <h1 className="the-vibe-h1">The Vibe</h1>
+                    <p className="the-vibe-text-div">
+                        MARVEL HAIR CUT  specializes in classic cuts, beard trims, hot towel shaves  and quality grooming products. Our team of professional and knowledgeable barbers work to help you achieve your best look. We thrive on great music, thoughtful conversation and fostering relationship in our community. We’ve created a laid back environment for your regular dose of self-care.
+                    </p>
+                </div>
             </div>
 
             

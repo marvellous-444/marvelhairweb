@@ -11,7 +11,7 @@ body{
   padding: 0;
 }
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 580px){
   body{
     /* height: auto; */
     width: 100%;

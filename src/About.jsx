@@ -9,14 +9,14 @@ export default function About(){
         <Nav/>
         <div className="About-body">
             <div className='About-top-img'>
-                <h1>Marvel’s Experts In</h1>
-                <h1>Grooming & Personal Care</h1>
+                <h1 className='about-top-img-h1'>Marvel’s Experts In</h1>
+                <h1 className='about-top-img-h1'>Grooming & Personal Care</h1>
             </div>
 
             <div className='the-story-div'>
                 <h2 className='the-story-h2'>The Story</h2>
-                <p>
-                    We believe that going to the barber shop should be more than an errand. It should be an <br /> experience. It’s important to us that you get a great haircut, receive remarkable service and <br /> build lasting relationships in a comfortable space. We are committed to being an inclusive <br /> and welcoming environment for every client and member of our team who enter our space <br /> regardless of gender, race, sexual orientation, religion or politics. We celebrate the diversity <br /> within our community and aim to be an example of unity in Fort Worth.
+                <p className='the-story-text'>
+                    We believe that going to the barber shop should be more than an errand. It should be an experience. It’s important to us that you get a great haircut, receive remarkable service and build lasting relationships in a comfortable space. We are committed to being an inclusive and welcoming environment for every client and member of our team who enter our space regardless of gender, race, sexual orientation, religion or politics. We celebrate the diversity within our community and aim to be an example of unity.
                 </p>
             </div>
 

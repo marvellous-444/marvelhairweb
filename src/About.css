@@ -18,8 +18,8 @@
     font-size: 3.5vh;
     padding-bottom: 15vh;
 }
-h1{
-
+.about-top-img-h1{
+    
     margin: 0;
     padding: 0;
 }
@@ -29,10 +29,21 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 50vh;
+    height: 80vh;
     width: 100%;
     background-color: #2e2c2c;
     color: #fff;
+}
+.the-story-h2{
+    font-size: 5.5vh;
+    margin: 0%;
+    padding: 0%;
+}
+.the-story-text{
+    height: 40%;
+    width: 45%;
+    font-size: 2.5vh;
+
 }
 
 .Jonathan-quote-div{
@@ -40,8 +51,13 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 65vh;
+    height: 90vh;
     width: 100%;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0) 100%), radial-gradient(rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.3) 166%), url("https://files.oaiusercontent.com/file-KkgtsxwSHNRUeHVtxkttrV?se=2024-12-11T19%3A27%3A48Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D1dda0266-08a4-47b5-996d-b0fbd329293d.webp&sig=MnBzPc9t6fwGNaphnY9ZoZgHG4ei3LbGDC/UrnK/4OE%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
     
     
 }
@@ -55,25 +71,49 @@ h1{
 }
 
 .Jonathan-quote-h2{
-    margin: 0%;
-    padding: 0%;
-    
-}
-.Jonathan-quote-h2i{
-    margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-.About-last-text-div{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 50vh;
+    height: 5vh;
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+    font-size: xx-large;
+            
+}
+.Jonathan-quote-h2i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5vh;
+    width: 50%;
+    margin: 0%;
+    padding: 0%;
+    font-size: xx-large;
+}
+.Jonathan{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    height: 10vh;
+    width: 30%;
+    font-size: large;
+}
+
+
+.About-last-text-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
     width: 100%;
-    font-size: 1.7vw;
+    font-size: xx-large;
     background-color: rgb(196, 160, 117);
+    color: #000000;
     
 }
 .About-last-text-book{
@@ -97,7 +137,7 @@ h1{
 
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 580px){
     
     .About-top-img{
         display: flex;
@@ -125,14 +165,21 @@ h1{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 48vh;
+        height: 88vh;
         width: 100%;
         background-color: #2e2c2c;
         color: #fff;
     }
     .the-story-h2{
+        font-size: xx-large;
         margin: 0%;
         padding: 0%;
+    }
+    .the-story-text{
+        height: 80%;
+        width: 90%;
+        font-size: 2.4vh;
+
     }
     
     .Jonathan-quote-div{
@@ -140,25 +187,46 @@ h1{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 50vh;
+        height: 60vh;
         width: 100%;
-        
+        background-image: radial-gradient(rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0) 100%), radial-gradient(rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.3) 166%), url("https://files.oaiusercontent.com/file-KkgtsxwSHNRUeHVtxkttrV?se=2024-12-11T19%3A27%3A48Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D1dda0266-08a4-47b5-996d-b0fbd329293d.webp&sig=MnBzPc9t6fwGNaphnY9ZoZgHG4ei3LbGDC/UrnK/4OE%3D");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
         
     }
        
     .Jonathan-quote-h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 3vh;
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+        font-size: 1.8vh;
+                
+    }
+    .Jonathan-quote-h2i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 3vh;
+        width: 90%;
         margin: 0%;
         padding: 0%;
         font-size: large;
-        
-    }
-    .Jonathan-quote-h2i{
-        margin-top: 0%;
-        margin-left: 0%;
-        margin-right: 0%;
-        font-size: large;
     }
     .Jonathan{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        flex-direction: column;
+        height: 5vh;
+        width: 50%;
         font-size: small;
     }
     
