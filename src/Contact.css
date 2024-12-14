@@ -325,6 +325,11 @@ label{
         border-radius: 1vh;
     }
     
+    .Contact-form-text-div{
+        /* gap: 0.5vh; */
+        height: 25%;
+        width: 100%;
+    }
     .Contact-form-h1{
         /* display: flex;
         justify-content: center;
