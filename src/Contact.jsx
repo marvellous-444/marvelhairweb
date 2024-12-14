@@ -15,32 +15,36 @@ export default function Contact(){
 
             <div className='Contact-details-box'>
 
-                <div className='Contact-form-box'>
+                <div className='Contact-form-container'>
+                    <div className='Contact-form-box'>
+                        
+                        <div className='Contact-form-text-div'>
+                            <h1 className='Contact-form-h1'>Get in touch.</h1>
+                            <div className='Contact-form-text'>Use the form below to drop us an email.</div>
+                        </div>
+                        
+                        <form action="" method='' className='Contact-form'>
+
+                            <label htmlFor="Name">Name</label>
+                            <input className='Contact-form-name' type="text" name='Name'/>
+                            
+
+                            <label htmlFor="email">Email</label>
+                            <input className='Contact-form-email' type="email" name="email" id="" />
+                            
+
+                            <label htmlFor="Message">Message</label>
+                            <textarea className='Contact-form-textbox' name="Message" id=""></textarea>
+                            
+
+                            <input className='Contact-form-send' type="submit" value="SEND"/>
+                            
+                        </form>
+
+                    </div>
                     
-                    <h1 className='Contact-form-h1'>Get in touch.</h1>
-                    <div className='Contact-form-text'>Use the form below to drop us an email.</div>
-                    
-                    <form action="" method="get" className='Contact-form'>
-
-                        <label htmlFor="Name">Name</label>
-                        <input className='Contact-form-name' type="text" name='Name'/>
-                        
-
-                        <label htmlFor="email">Email</label>
-                        <input className='Contact-form-email' type="email" name="email" id="" />
-                        
-
-                        <label htmlFor="Message">Message</label>
-                        <textarea className='Contact-form-textbox' name="Message" id=""></textarea>
-                        
-
-                        <input className='Contact-form-send' type="submit" value="SEND"/>
-                        
-                    </form>
-
+                    <img className='Contact-img' src="/tkll.png" alt="" />
                 </div>
-                
-                <img className='Contact-img' src="/tkll.png" alt="" />
                                    
 
                 
@@ -59,7 +63,7 @@ export default function Contact(){
                 </div>
 
                 <div className='Contact-bottom-div3'>
-                    <div className='Contact-bottom-header-div'>
+                    <div className='Contact-bottom-header-div2'>
                         <h2 className='Contact-bottom-h2'>HOURS</h2>
                         <h4 className='Contact-bottom-h4'>Come Get Cut!</h4>
                     </div>

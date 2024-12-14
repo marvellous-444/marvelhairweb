@@ -109,15 +109,17 @@ nav ul li a{
         display: none;
         flex-direction: column;
         align-items: start;
-        justify-content: center;
-        gap: 0.5vh;
-        height: 23vh;
-        width: 100%;
-        background-color: #20233a;
+        justify-content: flex-start;
+        gap: 2vh;
+        height: 820px;
+        width: 80%;
+        background-color: #20233af6;
         top: 70%;
         position: absolute;
-        /* padding-left: 20%; */
+        padding-left: 5%;
+        padding-top: 2%;
         font-size: x-large;
+        left: 15.8%;
         
     }
     
